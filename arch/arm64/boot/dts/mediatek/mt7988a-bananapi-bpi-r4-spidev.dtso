@@ -16,7 +16,7 @@
 			status = "okay";
 
 			spidev@0 {
-				compatible = "linux,spidev";
+				compatible = "silabs,si3210";
 				reg = <0>;
 				#address-cells = <1>;
 				#size-cells = <0>;
