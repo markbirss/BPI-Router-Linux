@@ -85,7 +85,7 @@
 		conf-sd {
 			description = "Boot Linux kernel with SD FDT blob";
 			kernel = "kernel-1";
-			fdt = "fdt-base", "fdt-ov-sd", "fdt-ov-spi-display";
+			fdt = "fdt-base", "fdt-ov-sd", "fdt-ov-spi-dev";
 			//ramdisk = "ramdisk-1";
 			hash-1 {
 				algo = "sha1";
